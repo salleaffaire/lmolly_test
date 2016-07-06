@@ -3,3 +3,6 @@ g++ -std=c++11 -lpthread test_aa.cpp -o test_aa
 g++ -std=c++11 -lpthread test_binfile.cpp lmolly/binfile.cpp -o test_binfile
 
 g++ -std=c++11 -lpthread test_bitbuffer.cpp lmolly/binfile.cpp lmolly/bitbuffer.cpp -o test_bitbuffer
+
+g++ -std=c++11 -lpthread test_ssdbsh.cpp -o test_ssdbsh
+
